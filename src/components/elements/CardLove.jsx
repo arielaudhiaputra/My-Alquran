@@ -1,6 +1,8 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
 
 export function CardLove({id, namaSurah, nomorAyat, href}){
+
     return (
         <>
             <Link to={href} key={id} className="flex flex-row items-center shadow-xl hover:bg-sky-600 hover:text-white rounded-xl w-full px-4 py-3 h-full mx-auto hover:border-yellow-500 border-4 border-sky-600 gap-2">

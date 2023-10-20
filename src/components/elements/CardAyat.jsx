@@ -7,7 +7,8 @@ import LoveOut from "../icons/LoveOut"
 import { useLove } from "../../hooks/useLove"
 
 
-export function CardAyat({nomorAyat, ayat, teksLatin, teksIndonesia, audio, namaLatin, nomorSurah, id}){
+
+export function CardAyat({nomorAyat, ayat, teksLatin, teksIndonesia, audio, namaLatin, nomorSurah}){
 
     const {love, toggleLove} = useLove(nomorAyat, namaLatin, nomorSurah)
     const [audioStatus, setAudioStatus] = useState(false);
@@ -30,7 +31,7 @@ export function CardAyat({nomorAyat, ayat, teksLatin, teksIndonesia, audio, nama
 
     return (
         <>
-            <div id={id} className="shadow-xl border-4 border-sky-600 px-4 py-6 rounded-xl mx-auto justify-center w-full h-full">
+            <div id={nomorAyat}  className="shadow-xl border-4 border-sky-600 px-4 py-6 rounded-xl mx-auto justify-center w-full h-full">
                 <div className="flex justify-between w-full">
                     <div className="bg-sky-600 p-3 h-9 w-9 flex items-center justify-center rounded-full">
                         <span className="font-bold text-base text-white">{nomorAyat}</span>
