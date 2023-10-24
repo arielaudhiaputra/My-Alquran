@@ -45,7 +45,7 @@ export function DetailDoa(){
                 <div className="container mx-auto w-full">
                     <div className="grid grid-1 mx-auto px-4 py-3 w-full lg:w-full xl:w-[80%]">
                         <div className="shadow-xl rounded-lg flex justify-center border-4 border-sky-600 px-6 py-4 gap-6  hover:bg-sky-600 hover:text-white  hover:border-yellow-500">
-                            <h1 className="text-center text-2xl md:text-3xl font-bold">
+                            <h1 className="text-center text-2xl md:text-3xl font-bold dark:text-white">
                                 {doaHarian.nama}
                             </h1>
                         </div>
@@ -56,16 +56,16 @@ export function DetailDoa(){
                     <div className="grid grid-1 mx-auto px-4 py-3 w-full lg:w-full xl:w-[80%]">
                         <div className="shadow-xl rounded-lg flex flex-col border-4 border-sky-600 px-6 py-8 gap-6">
                             <div className="flex flex-col gap-3">
-                                <h1 className="text-end font-bold text-3xl md:text-4xl">{doaHarian.ar}</h1>
-                                <h1 className="text-start font-semibold text-lg">{doaHarian.tr}</h1>
+                                <h1 className="text-end font-bold text-3xl md:text-4xl dark:text-white">{doaHarian.ar}</h1>
+                                <h1 className="text-start font-semibold text-lg dark:text-white">{doaHarian.tr}</h1>
                             </div>
                             <div className="flex flex-col">
-                                <h1 className="font-bold text-lg">Artinya :</h1>
-                                <h1 className="text-start font-medium text-md md:text-lg">{doaHarian.idn}</h1>
+                                <h1 className="font-bold text-lg dark:text-white">Artinya :</h1>
+                                <h1 className="text-start font-medium text-md md:text-lg dark:text-white">{doaHarian.idn}</h1>
                             </div>
                             <div className="flex flex-col">
-                                <h1 className="font-bold text-md md:text-lg">Tentang :</h1>
-                                <h1 className="text-start font-medium text-md md:text-lg">{doaHarian.tentang}</h1>
+                                <h1 className="font-bold text-md md:text-lg dark:text-white">Tentang :</h1>
+                                <h1 className="text-start font-medium text-md md:text-lg dark:text-white">{doaHarian.tentang}</h1>
                             </div>
                         </div>
                     </div>

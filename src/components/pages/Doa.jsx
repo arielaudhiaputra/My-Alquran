@@ -39,7 +39,7 @@ export function Doa(){
 
                 <div className="container mx-auto w-full">
                     <div className="grid grid-cols-1 text-center px-4 py-2 mx-auto w-full lg:w-full xl:w-[80%] gap-4 mb-6">
-                        <h1 className="text-2xl font-semibold underline">Daftar Doa-Doa Harian</h1>
+                        <h1 className="text-2xl font-semibold underline dark:text-white">Daftar Doa-Doa Harian</h1>
                         <input
                             type="search"
                             placeholder="🔍 Cari Doa"
@@ -49,7 +49,7 @@ export function Doa(){
                         />
                     </div>
 
-                    <div className="grid grid-cols-12 gap-2 px-4 py-2 mx-auto w-full lg:w-full xl:w-[80%]">
+                    <div className="grid grid-cols-12 gap-2 px-4 py-2 mx-auto w-full lg:w-full xl:w-[80%] dark:text-white">
                             {filterDoa.map((doa) =>
                                 <Link to={`/doa-harian/${doa.id}`} className="col-span-12 md:col-span-6 lg:col-span-4" key={doa.id}>
                                     <CardDoa

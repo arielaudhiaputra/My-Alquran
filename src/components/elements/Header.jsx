@@ -52,14 +52,14 @@ export function Header({nomor, namaSurah, namaSurahLatin, jumlahAyat, tempatTuru
                         <div className="bg-sky-600 font-bold p-3 h-9 w-9 flex items-center justify-center rounded-full">
                             <span className="font-semibold text-base text-white">{nomor}</span>
                         </div>
-                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">{namaSurahLatin}</h1>
+                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-white">{namaSurahLatin}</h1>
                         <span className="rounded-full mt-2 bg-yellow-600 h-[6px] w-[6px]"></span>
-                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">{namaSurah}</h1>
+                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-white">{namaSurah}</h1>
                     </div>
                     <div className="flex justify-center items-center mx-auto w-full gap-6 px-3">
-                        <h1 className="font-semibold text-sm md:text-base">{tempatTurun}</h1>
-                        <h1 className="font-semibold text-sm text-center md:text-lg">{arti}</h1>
-                        <span className="font-semibold text-sm md:text-base">{jumlahAyat}</span>
+                        <h1 className="font-semibold text-sm md:text-base dark:text-white">{tempatTurun}</h1>
+                        <h1 className="font-semibold text-sm text-center md:text-lg dark:text-white">{arti}</h1>
+                        <span className="font-semibold text-sm md:text-base dark:text-white">{jumlahAyat}</span>
                     </div>
                     <div className="flex justify-center items-center mx-auto w-full gap-4 mt-2 px-3">
                         <button onClick={toggleAudio} className="flex text-sm justify-center items-center py-1 md:py-2 px-4 bg-slate-300 text-black font-bold rounded-xl gap-2">

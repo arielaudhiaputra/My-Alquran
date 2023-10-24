@@ -2,7 +2,7 @@ export function CardSurah({noSurah, namaSurah, artiSurah, tempatTurun, jumlahAya
 
     return (
         <>
-            <div className="flex shadow-xl hover:bg-sky-600 hover:text-white rounded-xl w-full px-4 py-3 h-full justify-center mx-auto hover:border-yellow-500 border-4 border-sky-600 gap-1">
+            <div className="flex shadow-xl hover:bg-sky-600 dark:text-white hover:text-white rounded-xl w-full px-4 py-3 h-full justify-center mx-auto hover:border-yellow-500 border-4 border-sky-600 gap-1">
                 <div className="bg-sky-400 font-bold p-3 h-8 w-8 flex items-center justify-center rounded-full">
                     <span className="font-semibold text-base text-white">{noSurah}</span>
                 </div>

@@ -17,7 +17,6 @@ export function Tafsir(){
         setTafsirs(response.data.data.tafsir)
         setSurahs(response.data.data)
     }
-    console.log(tafsirs)
 
 
     useEffect(()=>{
@@ -43,7 +42,7 @@ export function Tafsir(){
                                 <svg className="w-3 h-3 text-black mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
                                 </svg>
-                                <Link to={`/surah/${surahs.nomor}`} className="ml-1 text-sm font-bold hover:text-blue-600 md:ml-2 night:hover:text-white">Kembali</Link>
+                                <Link to={`/surah/${surahs.nomor}`} className="ml-1 text-sm font-bold hover:text-blue-600 md:ml-2">Kembali</Link>
                             </div>
                         </li>
                     </ol>
@@ -57,14 +56,14 @@ export function Tafsir(){
                                     <div className="bg-sky-600 font-bold p-3 h-9 w-9 flex items-center justify-center rounded-full">
                                         <span className="font-semibold text-base text-white">{surahs.nomor}</span>
                                     </div>
-                                    <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">{surahs.namaLatin}</h1>
+                                    <h1 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-white">{surahs.namaLatin}</h1>
                                     <span className="rounded-full mt-2 bg-yellow-600 h-[6px] w-[6px]"></span>
-                                    <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">{surahs.nama}</h1>
+                                    <h1 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-white">{surahs.nama}</h1>
                                 </div>
                                 <div className="flex justify-center items-center mx-auto w-full gap-6 px-3">
-                                    <h1 className="font-semibold text-base">{surahs.tempatTurun}</h1>
-                                    <h1 className="font-semibold text-lg">{surahs.arti}</h1>
-                                    <span className="font-semibold text-base">{surahs.jumlahAyat}</span>
+                                    <h1 className="font-semibold text-base dark:text-white">{surahs.tempatTurun}</h1>
+                                    <h1 className="font-semibold text-lg dark:text-white">{surahs.arti}</h1>
+                                    <span className="font-semibold text-base dark:text-white">{surahs.jumlahAyat}</span>
                                 </div>
                                 <div className="flex justify-center items-center mx-auto w-full gap-4 mt-2 px-3">
                                     <Link to={`/surah/${surahs.nomor}`}>

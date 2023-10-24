@@ -61,7 +61,7 @@ export function DetailSurah(){
                     <div className="grid grid-cols-1 px-3 mx-auto py-5 w-full">
                         <div className="shadow-xl rounded-xl w-full h-full border-4 border-sky-600">
                             <div className="flex justify-center py-9 px-3">
-                                <h1 className="text-end text-2xl md:text-3xl lg:text-4xl font-bold">بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</h1>
+                                <h1 className="text-end text-2xl md:text-3xl lg:text-4xl font-bold dark:text-white">بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</h1>
                             </div>
                         </div>
                     </div>
