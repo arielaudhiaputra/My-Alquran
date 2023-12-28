@@ -88,7 +88,7 @@ export function DetailSurah(){
                 </div>
 
                 <div className="container mx-auto mt-6">
-                    <div className="grid grid-1 px-3">
+                    <div className="grid grid-cols-1 px-3">
                         <div className="flex justify-between w-full py-4 px-5 gap-2 shadow-xl rounded-xl border-4 border-sky-600">
                             <div className="text-start font-bold text-black">
                                 {surahs.suratSebelumnya && (

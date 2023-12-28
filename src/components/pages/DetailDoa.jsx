@@ -43,7 +43,7 @@ export function DetailDoa(){
                 </nav>
 
                 <div className="container mx-auto w-full">
-                    <div className="grid grid-1 mx-auto px-4 py-3 w-full lg:w-full xl:w-[80%]">
+                    <div className="grid grid-cols-1 mx-auto px-4 py-3 w-full lg:w-full xl:w-[80%]">
                         <div className="shadow-xl rounded-lg flex justify-center border-4 border-sky-600 px-6 py-4 gap-6  hover:bg-sky-600 hover:text-white  hover:border-yellow-500">
                             <h1 className="text-center text-2xl md:text-3xl font-bold dark:text-white">
                                 {doaHarian.nama}
@@ -53,7 +53,7 @@ export function DetailDoa(){
                 </div>
 
                 <div className="container mx-auto w-full">
-                    <div className="grid grid-1 mx-auto px-4 py-3 w-full lg:w-full xl:w-[80%]">
+                    <div className="grid grid-cols-1 mx-auto px-4 py-3 w-full lg:w-full xl:w-[80%]">
                         <div className="shadow-xl rounded-lg flex flex-col border-4 border-sky-600 px-6 py-8 gap-6">
                             <div className="flex flex-col gap-3">
                                 <h1 className="text-end font-bold text-3xl md:text-4xl dark:text-white">{doaHarian.ar}</h1>
