@@ -33,7 +33,7 @@ export function Love(){
 
                 <div className="container mx-auto w-full">
                     <div className="grid grid-cols-1 gap-2 px-4 py-2 mx-auto w-full lg:w-full xl:w-[80%]">
-                    {Object.entries(loveData).map(([namaLatin, nomorSurah]) =>
+                        {Object.entries(loveData).map(([namaLatin, nomorSurah]) =>
                         Object.entries(nomorSurah).map(([nomorSurah, ayatList]) =>
                             ayatList.map((nomorAyat) => {
                                 const id = idCounter;
@@ -41,7 +41,7 @@ export function Love(){
                                 return (
                                         <CardLove
                                             nomorSurah={nomorSurah}
-                                            href={`/surah/${nomorSurah}#${nomorAyat}`}
+                                            to={`/surah/${nomorSurah}#${nomorAyat}`}
                                             key={id}
                                             id={id}
                                             namaSurah={namaLatin}

@@ -36,14 +36,14 @@ export function CardAyat({nomorAyat, ayat, teksLatin, teksIndonesia, audio, nama
                     <div className="bg-sky-600 p-3 h-9 w-9 flex items-center justify-center rounded-full">
                         <span className="font-bold text-base text-white">{nomorAyat}</span>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex">
                         <button className="" onClick={toggleAudio}>
                             {audioStatus ? <Pause className="dark:text-white"/> : <Play className="dark:text-white"/>}
                         </button>
                         <audio ref={audioRef} src={audio["05"]} onEnded={handleAudioEnded} />
-                        <button className="" onClick={toggleLove}>
+                        {/* <button className="" onClick={toggleLove}>
                             {love ? <LoveIn/> : <LoveOut/>}
-                        </button>
+                        </button> */}
                     </div>
                 </div>
                 <div className="flex flex-col mt-7 w-full">

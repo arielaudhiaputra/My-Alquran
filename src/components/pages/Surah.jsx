@@ -31,17 +31,17 @@ export function Surah(){
                         <h1 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-white">Baca Al-Quran dan Tafsir Ayat Dengan Mudah Bersama MyAlquran</h1>
                     </div>
 
-                    <div className="grid grid-cols-2 text-center px-4 py-2 mx-auto w-full lg:w-full xl:w-[80%] gap-4 mb-8">
+                    <div className="grid grid-cols-1 text-center px-4 py-2 mx-auto w-full lg:w-[70%] xl:w-[50%] gap-4 mb-8">
                         <Link to='/doa-harian' className="shadow-xl rounded-lg py-5 px-2 border-4 border-sky-600 hover:bg-sky-600 hover:border-yellow-500 hover:text-white">
                             <div className="flex justify-center">
                                 <h1 className="font-semibold text-md md:text-lg text-center dark:text-white">Kumpulan Doa Harian</h1>
                             </div>
                         </Link>
-                        <Link to='love' className="shadow-xl rounded-lg py-5 px-2 border-4 border-sky-600 hover:bg-sky-600 hover:border-yellow-500 hover:text-white">
+                        {/* <Link to='love' className="shadow-xl rounded-lg py-5 px-2 border-4 border-sky-600 hover:bg-sky-600 hover:border-yellow-500 hover:text-white">
                             <div className="flex justify-center">
                                 <h1 className="font-semibold text-md md:text-lg text-center dark:text-white">Ayat Favorit</h1>
                             </div>
-                        </Link>
+                        </Link> */}
                     </div>
 
                     <div className="grid grid-cols-1 text-center px-4 py-2 mx-auto w-full lg:w-full xl:w-[80%] gap-4 mb-6">

@@ -14,10 +14,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Surah/>} />
           <Route path="/doa-harian" element={<Doa/>} />
-          <Route path="/doa-harian/:id" element={<DetailDoa/>} />
           <Route path="/surah/:id" element={<DetailSurah/>} />
+          <Route path="/doa-harian/:id" element={<DetailDoa/>} />
           <Route path="/tafsir/:id" element={<Tafsir/>} />
-          <Route path="/love" element={<Love/>} />
+          {/* <Route path="/love" element={<Love/>} /> */}
         </Routes>
       </Router>
     </>
